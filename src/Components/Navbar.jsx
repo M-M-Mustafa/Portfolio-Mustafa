@@ -3,7 +3,7 @@ import "./Navbar.css"
 import MobileNav from './MobileNavbar/MobileNav';
 
 const Navbar = () => {
-     const [openMenu ,SetOpenMenu] = useState(false);
+     const [openMenu ,setOpenMenu] = useState(false);
 
      const toggleMenu = () => {
          setOpenMenu(!openMenu);
@@ -14,7 +14,7 @@ const Navbar = () => {
      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
     <nav className='nav-wrapper'>
       <div className='nav-content'>
-        {/* <img className='logo' src='./assets/images/react.svg' alt="" />   */}
+      <img className='logo' src="./src/assets/images/logo.png" alt="" />  
         <ul>
             <li>
                 <a className='menu-item'>Home</a>
@@ -27,8 +27,8 @@ const Navbar = () => {
             </li>
             <li>
                 <a className='menu-item'>Contact Me</a>
-                <button className='contact-btn' onClick={()=>{}}> Hire Me</button>
             </li>
+                <button className='contact-btn' onClick={()=>{}}> Hire Me</button>
         </ul>
                 <button className='menu-btn' onClick={toggleMenu}>
                     <span 
