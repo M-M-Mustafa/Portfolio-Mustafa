@@ -1,4 +1,4 @@
-import Skills from "../Components/Skills/Skills";
+
 
 export const SKILLS = [
     {

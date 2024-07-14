@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Navbar.css"
-import MobileNav from './MobileNavbar/MobileNav';
+import MobileNav from '../MobileNavbar/MobileNav';
 
 const Navbar = () => {
      const [openMenu ,setOpenMenu] = useState(false);
