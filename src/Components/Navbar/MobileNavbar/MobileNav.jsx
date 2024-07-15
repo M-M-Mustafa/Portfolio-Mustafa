@@ -1,7 +1,7 @@
 import React from 'react'
 import "./MobileNav.css"
 
-const MobileNav = ({isOpen, toggleMenu}) => {
+const MobileNav = ({isOpen, toggleMenu }) => {
   return (
     <>
     <div 

@@ -14,9 +14,9 @@ const App = () => {
     <div className='container'>
       <Hero/>
       {/* <Skills/> */}
-      <ContactMe/>
+      {/* <ContactMe/> */}
     </div>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   );
 };

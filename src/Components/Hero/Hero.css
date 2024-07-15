@@ -3,6 +3,7 @@
     align-items: center;
     position: absolute;
 }
+
 .hero-container::after,
 .hero-container::before{
     content: "";
@@ -21,7 +22,7 @@
 }
 
 .hero-container::before{
-    bottom: -3rem;
+    bottom: -2rem;
     right: 0rem;
 }
 .hero-content {
@@ -33,7 +34,7 @@
     line-height: 5rem;
     margin-bottom: 1rem;
 }
-.hero-content h2 {
+.hero-content p  {
     width: 80%;
     font-size: 1rem;
     font-weight: 400;
@@ -101,7 +102,7 @@
 }
 
 @media (max-width: 768px) {
-    .hero-content{
+    .hero-container{
         flex-direction: column;
     }
     .hero-img{
