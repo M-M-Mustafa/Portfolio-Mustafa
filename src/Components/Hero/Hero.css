@@ -1,7 +1,8 @@
 .hero-container {
     display: flex;
     align-items: center;
-    position: absolute;
+    position: relative;
+
 }
 
 .hero-container::after,
