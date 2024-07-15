@@ -15,9 +15,15 @@
     margin: 0 auto;
 
 }
-.logo{
-    width: 14rem;
+.logo {
+    width: 18rem;
     height: auto;
+    filter: invert(1);
+
+}
+.logo img{
+    border: #7e61e7 solid 200px;
+ 
 }
 
 .nav-content ul{
