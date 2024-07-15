@@ -5,15 +5,17 @@ import Hero from './Components/Hero/Hero'
 
 // import Footer from './Components/Footer/Footer'
 // import ContactMe from './Components/ContactMe/ContactMe'
-import Skills from './Components/Skills/Skills'
+// import Skills from './Components/Skills/Skills'
+import WorkExperience from './Components/WorkExperience/WorkExperience'
 
 const App = () => {
   return (
     <>
     <Navbar/>
     <div className='container'>
-      <Hero/>
-      <Skills/>
+      {/* <Hero/> */}
+      {/* <Skills/> */}
+      <WorkExperience/>
       {/* <ContactMe/> */}
     </div>
       {/* <Footer/> */}

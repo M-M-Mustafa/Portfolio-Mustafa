@@ -77,3 +77,37 @@ export const SKILLS = [
         ],
     },
 ];
+export const WORK_EXPERIENCE =  [
+    {
+        title: "Senior Frontend Developer",
+        date: "2023 - Present",
+        company: "ABC Corp",
+        responsbilities:[
+            "I led a team of 4 frontend developers, 2 designers, and 1 backend developer at ABC Corporation from Jan-Jun 2022.",
+            "I oversaw the design and development of a responsive e-commerce website using React, Redux, and CSS-in-JS.","I ensured code quality, implemented accessibility features, and optimized performance, resulting in a 30% faster website.",
+            "The project was completed on time, with a 25% increase in sales revenue."
+        ],
+    },
+    {
+        title: "Backend Developer",
+        date: "2022 - 2023",
+        company: "XYZ Corp",
+        responsbilities:[
+            "I led the backend development team for the enterprise software project at XYZ Inc. from July 2022 to December 2022. Our team consisted of 3 backend developers, 1 frontend developer, and 1 DevOps engineer.",
+            "I designed and developed a scalable and secure RESTful API using Node.js, Express, and MongoDB. I implemented authentication and authorization, integrated with third-party services, and ensured data encryption and compliance with industry standards.",
+            "I collaborated with the frontend team to ensure seamless API integration, and worked with the DevOps team to deploy the application on AWS.",
+            "The project was completed on time, with a 30% increase in system efficiency.",
+        ],
+    },
+    {
+        title: "Frontend Intern ",
+        date: "2020 - 2021",
+        company: "Web Studio",
+        responsbilities:[
+            "As a Frontend Intern , I contributed to the development of a responsive and user-friendly web application using HTML, CSS, and JavaScript.",
+            " I worked closely with the design team to translate designs into functional UI components, implemented new features, and collaborated with the backend team to integrate API endpoints.",
+            "I also participated in code reviews, ensured cross-browser compatibility, and optimized the website's performance.",
+            "This internship provided me with hands-on experience in frontend development and the opportunity to work in a collaborative and dynamic environment."
+        ],
+    } 
+];
