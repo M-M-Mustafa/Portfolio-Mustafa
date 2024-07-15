@@ -1,5 +1,5 @@
 .skills-card{
-    border-radius: 0.65ren;
+    border-radius: 0.65re;
     border: 1.5px solid #6751b9;
     padding: 2.5rem;
     text-align: center;
@@ -42,6 +42,10 @@
     .skills-card{
         padding: 2rem;
     }
+    .skills-card span{
+        font-size:   1rem;
+   
+    }
     .skill-icon{
         width: 3rem;
         height: 3rem;
@@ -52,7 +56,7 @@
 
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
     .skills-card span{
         font-size: 0.9rem;
     }

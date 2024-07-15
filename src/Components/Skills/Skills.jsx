@@ -11,12 +11,9 @@ const Skills = () => {
     setSelectedSkill(data);
   };
 
-  console.log("Selected Skill:", selectedSkill); // Check selectedSkill
-  console.log("Selected Skill's Skills:", selectedSkill ? selectedSkill.Skills : null); // Check selectedSkill.Skills
 
-  if (!selectedSkill) {
-    return <p>No skills available.</p>; // Optional: Handle case when selectedSkill is null or undefined
-  }
+
+
 
   return (
     <section className='skills-container'>

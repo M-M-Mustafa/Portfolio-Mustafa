@@ -1,5 +1,3 @@
-
-
 export const SKILLS = [
     {
         title: "FrontEnd",

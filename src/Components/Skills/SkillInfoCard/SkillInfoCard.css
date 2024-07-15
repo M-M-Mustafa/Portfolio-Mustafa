@@ -1,4 +1,4 @@
-.skill-info-card{
+.skills-info-card{
     min-height: 23rem;
     border-radius: 0.65rem;
     border: 1.5px solid #6751b9;
@@ -33,7 +33,7 @@
 
 }
 
-.skill-info.percentage{ 
+.skill-info .percentage{ 
      color: #dd8cfa;
     
 }
