@@ -14,7 +14,7 @@ const Navbar = () => {
      <MobileNav isOpen={openMenu} toggleMenu={toggleMenu}/>
     <nav className='nav-wrapper'>
       <div className='nav-content'>
-      <img className='logo' src="./src/assets/images/logo1.png" alt="" />  
+      <img className='logo' src="./src/assets/Images/logo1.png" alt="Logo" />  
       
         <ul>
             <li>
