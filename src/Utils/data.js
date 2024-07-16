@@ -25,7 +25,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "/Images/tools.png",
+        icon: "/Images/tools6.png",
         description: "I have experience in using various tools and frameworks such as Git, GitHub, VS Code, and Postman.",
         skills: [
             { skill: "Git", percentage: "80%" },

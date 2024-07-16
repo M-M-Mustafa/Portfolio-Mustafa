@@ -22,7 +22,7 @@
 
 }
 .icon img{
-    width: 1.8rem;
+    width: 3.4rem;
     height: auto;
     object-fit: contain;
 
@@ -30,4 +30,5 @@
 .Contact-details-card p{
     font-size: 0.9rem;
     font-weight: 400;
+    letter-spacing: 1.5px;
 }

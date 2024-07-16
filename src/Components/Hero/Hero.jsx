@@ -27,6 +27,9 @@ const Hero = () => {
                 <div className="tech-icon">
                     <img src='/Images/hero3.png' alt="" />
                 </div>
+                <div className="tech-icon">
+                    <img src='/Images/node-js.png' alt="" />
+                </div>
             </div>
         </div>
     </section>
