@@ -10,7 +10,7 @@ const ExperienceCard = ({details}) => {
             {details.date}
         </div>
         <ul>
-            {details.responsbilities.map((item)=>(
+            {details.responsibilities.map((item)=>(
                 <li key={item}>{item}</li>
             ))}
         </ul>
