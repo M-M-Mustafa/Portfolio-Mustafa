@@ -4,6 +4,13 @@
     border: 1.5px solid #6751b9;
     padding: 1.5rem;
     margin: 0 1rem;
+    min-height: 240px;
+
+
+}
+.list-item-card{
+
+    min-height: 240px;
 }
 .work-experience-card h6{
     font-size: 1.05rem;
