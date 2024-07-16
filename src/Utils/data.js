@@ -1,7 +1,7 @@
 export const SKILLS = [
     {
         title: "FrontEnd",
-        icon:"./src/assets/images/frontend.png",   
+        icon:"./src/assets/Images/frontend.png",   
         description: "I have experience in building responsive and interactive websites using HTML, CSS, and JavaScript.",
         skills: [
             { skill: "HTML5", percentage: "90%" },
@@ -15,7 +15,7 @@ export const SKILLS = [
     },
     {
         title: "BackEnd",
-        icon: "./src/assets/images/backend2.png",
+        icon: "./src/assets/Images/backend2.png",
         description: "I have experience in building RESTful APIs using Node.js, Express.js, and MongoDB.",
         skills: [
             { skill: "Node.js", percentage: "90%" },
@@ -25,7 +25,7 @@ export const SKILLS = [
     },
     {
         title: "Tools",
-        icon: "./src/assets/images/tools.png",
+        icon: "./src/assets/Images/tools.png",
         description: "I have experience in using various tools and frameworks such as Git, GitHub, VS Code, and Postman.",
         skills: [
             { skill: "Git", percentage: "80%" },
@@ -36,7 +36,7 @@ export const SKILLS = [
     },
     {
         title: "Database",
-        icon: "./src/assets/images/database.png",
+        icon: "./src/assets/Images/database.png",
         description: "I have experience in using NoSQL databases such as MongoDB and MySQL.",
         skills: [
             { skill: "MongoDB", percentage: "85%" },
@@ -48,7 +48,7 @@ export const SKILLS = [
     },
     {
         title: "Soft skills",
-        icon: "./src/assets/images/softskills.png",
+        icon: "./src/assets/Images/softskills.png",
         description: "I have experience in working well in a team, adapting to new technologies, and problem-solving.",
         skills: [
             { skill: "Teamwork", percentage: "90%" },

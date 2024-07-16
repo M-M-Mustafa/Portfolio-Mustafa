@@ -13,19 +13,19 @@ const Hero = () => {
                 <div className='tech-icon'>
                     <img src='./src/assets/react.svg' alt="" />
                 </div>
-                <img src="./src/assets/images/hero22.jpg" alt="" />
+                <img src="./src/assets/Images/hero22.jpg" alt="" />
             </div>
 
 
             <div>
                 <div className="tech-icon">
-                    <img src='./src/assets/images/hero1.png' alt="" />
+                    <img src='./src/assets/Images/hero1.png' alt="" />
                 </div>
                 <div className="tech-icon">
-                    <img src='./src/assets/images/hero2.png' alt="" />
+                    <img src='./src/assets/Images/hero2.png' alt="" />
                 </div>
                 <div className="tech-icon">
-                    <img src='./src/assets/images/hero3.png' alt="" />
+                    <img src='./src/assets/Images/hero3.png' alt="" />
                 </div>
             </div>
         </div>
