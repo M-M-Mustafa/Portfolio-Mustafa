@@ -17,7 +17,7 @@ const ContactMe = () => {
               <ContactInfoCard
               title="Github"
               iconUrl="/Images/github.png"
-              text="Tommylance456@gmail.com" 
+              text="https://github.com/M-M-Mustafa" 
               />
             </div>
             <div style={{flex:1}}>
