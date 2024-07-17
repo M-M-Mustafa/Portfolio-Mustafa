@@ -1,15 +1,29 @@
 .contact-container{
-    margin: 4rem 0;
+    /* /* margin: 5rem  0; */
+    
+    /* margin: 5rem  0;  */
+
     position: relative;
+
+    min-height: 85vh;
+    padding-left:  3rem ;
+    padding-right:  3rem ;
+
+    padding-top: 5rem;
+    padding-bottom: -400rem;
 }
 .contact-container h5{
     font-size: 1.5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
+    margin-bottom: -15rem;
+   
 }
 .contact-content{
     display: flex;
     gap :3rem;
+    margin-top: 20rem ;
+
+
     
 }
 @media (max-width: 768px){

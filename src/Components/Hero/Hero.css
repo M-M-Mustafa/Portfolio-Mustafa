@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     position: relative;
+    padding: 4rem ;
 
 }
 
@@ -37,9 +38,11 @@
 }
 .hero-content p  {
     width: 80%;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 2rem;
+    color: #a28dff;
+    text-shadow: 2px 6px 3px rgba(15, 2, 49, 0.925)
 }
 
 .hero-img {

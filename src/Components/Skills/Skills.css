@@ -1,7 +1,13 @@
 .skills-container{
     margin: 4rem 0;
     position:relative;
+    padding: 3rem;
 
+}
+.skills-container h5{
+    font-size: 1.9rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .skills-container::after,

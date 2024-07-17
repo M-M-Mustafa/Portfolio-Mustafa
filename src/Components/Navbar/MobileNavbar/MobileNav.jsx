@@ -2,6 +2,22 @@ import React from 'react'
 import "./MobileNav.css"
 
 const MobileNav = ({isOpen, toggleMenu }) => {
+    const handleNavDownload = () => {
+        // Create a link element
+        console.log('Download button clicked!');
+        const link = document.createElement('a');
+        link.href = './Mustafa-Resume.pdf';  // Replace with actual path to your PDF file
+        link.download ='Mustafa-Resume.pdf';        // Replace with desired filename for the download
+
+        // Append the link to the body
+        document.body.appendChild(link);
+
+        // Trigger the click event on the link
+        link.click();
+
+        // Clean up: Remove the link from the body
+        document.body.removeChild(link);
+    };
   return (
     <>
     <div 
@@ -26,7 +42,7 @@ const MobileNav = ({isOpen, toggleMenu }) => {
 
                     <button 
                         className='contact-btn'
-                        onClick={()=>{}}
+                        onClick={handleNavDownload}
                         >Hire Me</button>
                  </ul>
             </div>
